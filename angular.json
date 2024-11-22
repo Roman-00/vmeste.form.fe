@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "app": {
+        "vmeste.form.fe": {
             "projectType": "application",
             "schematics": {
                 "@schematics/angular:component": {
@@ -18,7 +18,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
-                        "outputPath": "dist/app",
+                        "outputPath": "dist/vmeste.form.fe",
                         "index": "src/index.html",
                         "browser": "src/main.ts",
                         "polyfills": [
@@ -33,7 +33,7 @@
                             }
                         ],
                         "styles": [
-                            "src/style/common.scss"
+                            "src/styles/common.scss"
                         ],
                         "scripts": []
                     },
@@ -54,9 +54,9 @@
                             "outputHashing": "all"
                         },
                         "development": {
-                        "optimization": false,
-                        "extractLicenses": false,
-                        "sourceMap": true
+                            "optimization": false,
+                            "extractLicenses": false,
+                            "sourceMap": true
                         }
                     },
                     "defaultConfiguration": "production"
@@ -65,10 +65,10 @@
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
                         "production": {
-                            "buildTarget": "app:build:production"
+                            "buildTarget": "vmeste.form.fe:build:production"
                         },
                         "development": {
-                            "buildTarget": "app:build:development"
+                            "buildTarget": "vmeste.form.fe:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
@@ -92,7 +92,7 @@
                             }
                         ],
                         "styles": [
-                            "src/style/common.scss"
+                            "src/styles/common.scss"
                         ],
                         "scripts": []
                     }

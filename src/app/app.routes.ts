@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
-import { FormViewsComponent } from './views/form-views/form-views.component';
+import { GrantProposalFormComponent } from './pages/grant-proposal-form/grant-proposal-form.component';
 
 export const routes: Routes = [
-	{
-		path: '',
-		component: FormViewsComponent,
-	},
+    {
+        path: '',
+        component: GrantProposalFormComponent
+    }
 ];
