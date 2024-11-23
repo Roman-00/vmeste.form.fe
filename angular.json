@@ -33,6 +33,7 @@
                             }
                         ],
                         "styles": [
+                            "src/styles/_mixins.scss",
                             "src/styles/common.scss"
                         ],
                         "scripts": []
